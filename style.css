@@ -1,0 +1,47 @@
+body
+{font-family: Arial, sans-serif;
+  background: #1f2430;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+.app {
+  width: 420px;
+}
+
+.block {
+  background: #393c45;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 12px;
+}
+
+.digits {
+  font-size: 48px;
+  font-weight: bold;
+  margin: 10px 0;
+  font-family: monospace;
+}
+
+button {
+  padding: 10px 18px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  background: #4a90e2;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #2c6fc2;
+  border-radius: 50%;
+}
+
+input {
+  padding: 8px;
+  width: 70px;
+  font-size: 16px;
+}
